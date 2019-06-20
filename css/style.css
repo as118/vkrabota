@@ -1,0 +1,413 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+.menu {
+  width: 31%;
+  height: 50px;
+  border-top: solid white 1px;
+  margin-right: 10%;
+  float: right;
+  margin-top: 4%;
+  margin-left: 59%;
+}
+.intt {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 100;
+  float: left;
+  margin-top: 3%;
+}
+.int {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 100;
+  float: left;
+  margin-left: 11%;
+  margin-top: 3%;
+}
+#a {
+  width: 100%;
+  height: 88vh;
+  background-image: url('../img/slide_a.png');
+  background-size: contain;
+  color: white;
+  background-attachment: fixed;
+}
+#a h2 {
+  font-weight: 300;
+  margin-left: 10%;
+  margin-top:28%;
+  position: absolute;
+  font-size: 60px;
+}
+#a p {
+  font-weight: 100;
+  font-size: 34px;
+  margin-top: 3px;
+}
+#b {
+  height: 80vh;
+  background-image: url('../img/slide_b.png') hidden;
+  background-size: contain;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+#c {
+  height: 80vh;
+  background-image: url('../img/slide_b.png') hidden;
+  background-size: contain;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about {
+  width: 30%;
+  height: 55vh;
+  color: black;
+  float: left;
+  margin-top: 10%;
+}
+
+.about h2 {
+  margin: 0;
+  font-size: 30px;
+}
+.about p {
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 100;
+
+}
+
+.table {
+  width: 57%;
+  height: 50vh;
+  background-image: url('https://cdns.tblsft.com/sites/default/files/blog/tooltip-selection-1.gif');
+  background-size: cover;
+  float: right;
+}
+.work_map_back {
+  width: 68%;
+  height: 70%;
+  position: absolute;
+  z-index: 100;
+  margin-left: 20%;
+}
+.work_large {
+  width: 35%;
+  height: 60%;
+  color: black;
+}
+.work_large h2 {
+  margin: 0;
+}
+.desc {
+  width: 100%;
+  height: 74%;
+  overflow: scroll;
+  margin-top: 52px;
+
+}
+.desc p {
+  line-height: 35px;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: left;
+
+}
+.d {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://pp.userapi.com/c849432/v849432076/1bbd70/MxrqaREncQU.jpg');
+  background-size: cover;
+
+}
+#design_map {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/design_map_back.png');
+  transition: 1s;
+  background: #2d96b9ab;
+  background-image: url('../img/slide_b.png');
+  background-blend-mode:hard-light;
+  background-size: cover;
+
+}
+#design_map:active {
+  width: 0%;
+  transition: 1s;
+}
+#design_map h2 {
+  margin-left: 10%;
+  color: white;
+  margin-top: 20%;
+  position: absolute;
+}
+#design_desc {
+  width: 30%;
+  height: 50%;
+  margin-left: 10%;
+  color: white;
+  margin-top: 23%;
+  position: absolute;
+  font-size: 18px;
+  line-height: 30px;
+
+}
+.section {
+
+}
+#one {
+  background: #2d96b9ab;
+  background-image: url('../img/slide_b.png');
+  background-blend-mode:hard-light;
+
+}
+#one {
+  color: white;
+  padding-left: 2%;
+}
+.light {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+}
+#one p {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+}
+#one h1 {
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0;
+}
+.hold {
+  color: white;
+  margin-top: 40px;
+  font-size: 100;
+}
+
+
+
+
+
+
+
+
+.window_three {
+  width: 100%;
+  height: 50vh;
+  background: white;
+  background-size: contain;
+}
+#servies_about {
+  text-align: center;
+  font-size: 14px;
+  width: 500px;
+  margin-left: 36%;
+  margin-top: 4%;
+  line-height: 30px;
+  font-weight: 100;
+  color: #484545;
+}
+#servies_about h3 {
+  color: #484545;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+#resurses {
+  width: 90%;
+  height: 200px;
+  margin-top: 3%;
+  margin-left: 10%;
+  position: absolute;
+}
+.mapboxGL {
+  width: 178px;
+  height: 50px;
+  background-image: url('../img/maplogo.png');
+  margin-right: 140px;
+  margin-left: 10%;
+  margin-top: 30px;
+  background-size: contain;
+  float: left;
+}
+.mapboxGL p {
+  margin-top: 70px;
+  font-size: 14px;
+  text-align: center;
+  color: #484545;
+
+}
+.CartoDB {
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin-top: 30px;
+  background-size: contain;
+  margin-right: 75px;
+
+}
+.logocarto {
+  width: 125px;
+  height: 50px;
+  background-image: url('../img/image 1.png');
+  background-size: contain;
+}
+.CartoDB p {
+  margin-top: 23px;
+  font-size: 14px;
+  text-align: left;
+  color: #484545;
+  margin-left: -27px;
+}
+.KeplerGL {
+  width: 178px;
+  height: 36px;
+  background-image: url('../img/image 3.png');
+  background-size: contain;
+  float: left;
+  margin-top: 40px;
+  margin-right: 140px;
+}
+.KeplerGL p {
+  margin-top: 62px;
+  font-size: 14px;
+  text-align: left;
+  color: #484545;
+  margin-right: -10px;
+}
+.PowerBI {
+  width: 178px;
+  height: 49px;
+  background-image: url('../img/image 4.png');
+  background-size: contain;
+  float: left;
+  margin-top: 30px;
+}
+.PowerBI p {
+  margin-top: 72px;
+  font-size: 14px;
+  text-align: left;
+  color: #484545;
+  margin-right: -20px;
+  margin-left: -12px;
+}
+.analys_h h2{
+  margin-top: 20%;
+  font-weight: bolder;
+  font-size: 47px;
+  color: #484545;
+  padding-bottom: 29px;
+  border-bottom: solid 5px #484545;
+  width: 200px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+
+}
+.win_d {
+  width: 100%;
+  height: 100vh;
+  margin-top: 50vh;
+  background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.win_d h1 {
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 20%;
+}
+
+#anal {
+  position: absolute;
+  margin-left: 10%;
+  width: 30%;
+  height: 50%;
+  margin-top: 25%;
+  color: white;
+  line-height: 28px;
+}
+
+#pic_anal {
+  width: 39%;
+  margin-right: 10%;
+  position: absolute;
+  height: 38%;
+  z-index: 1000;
+  background-image: url('../img/analys.png');
+  margin-top: 17%;
+  margin-left: 54%;
+  background-size: contain;
+}
+
+.e {
+  width: 100%;
+  height: 100vh;
+}
+.int_analys {
+  margin-top: 10%;
+  width: 60%;
+  height: 1080px;
+  margin-left: 40%;
+  position: absolute;
+}
+
+.anal_desc {
+  width: 25%;
+  height: 30%;
+  margin-left: 10%;
+  position: absolute;
+  margin-top: 18%;
+}
+.anal_desc p {
+  line-height: 30px;
+}
+
+#bot {
+  width: 100%;
+  height: 25vh;
+  background: blue;
+  margin-top: 25vh;
+}
+
+
+
+
+
+.int_win_a {
+  width: 100%;
+  height: 90vh;
+}
+.int_wid_desc {
+  color: black;
+  width: 100%;
+  height: 15vh;
+  padding-left: 10%;
+  background: url('https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') hidden;
+}
+.int_wid_desc h2 {
+  margin: 0;
+  padding-top: 10px;
+  color: black;
+}
+.back a{
+  float: right;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -70px;
+  color: black;
+}
